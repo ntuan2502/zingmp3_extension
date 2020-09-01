@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <style>
+        #app {
+            width: 750px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <main class="py-4">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">ZingMp3</div>
+                        <div class="card-body">
+
+                            <form id="myform">
+                                <div class="form-group">
+                                    <label for="url">ZingMp3 URL</label>
+                                    <input type="text" class="form-control" id="url" aria-describedby="zingmp3Url" placeholder="Enter ZingMp3 Url">
+                                    <small class="form-text text-muted">Example: 
+                              <a href="https://zingmp3.vn/bai-hat/Ex-s-Hate-Me-Part-2-AMEE-B-Ray/ZWBU7OO7.html" target="_blank">
+                                https://zingmp3.vn/bai-hat/Ex-s-Hate-Me-Part-2-AMEE-B-Ray/ZWBU7OO7.html
+                              </a>
+                          </small>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div id="status">
+
+                        </div>
+                        <div id="append">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
